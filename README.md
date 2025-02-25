@@ -1,8 +1,10 @@
 # 📟 Calculadora React
 
-![Calculadora](./public/calculator.png)
-
 Este é um projeto de uma calculadora básica desenvolvida com React. A calculadora permite realizar operações matemáticas fundamentais, como adição, subtração, multiplicação e divisão, além de operações adicionais como módulo, porcentagem, raiz quadrada, exponenciação e utilização do valor de PI.
+
+<div align="center">
+  <img src="./public/calculator.png" alt="Calculador desenvolvida" />
+</div>
 
 ## 🚀 Tecnologias Utilizadas
 - ⚛️ React
