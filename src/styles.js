@@ -10,27 +10,28 @@ export const Container = styled.div`
     justify-content: center;
 `
 
+export const ContainerInput = styled.div`
+    
+`
+
+export const ContainerButtons = styled.div`
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+`
+
 export const Content = styled.div`
 
     background-color: #FFFFFF;
-    width: 80%;
+    width: 95%;
     min-height: 350px;
-    max-width: 250px;
+    max-width: 450px;
     border-radius: 10px;
 
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     padding: 10px;
-`
-
-export const Row = styled.div`
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
 `
 
 export const Column = styled.div`
@@ -39,4 +40,5 @@ export const Column = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 `
