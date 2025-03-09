@@ -70,7 +70,9 @@ Se deseja contribuir para este projeto, siga os passos:
 ## 📜 Licença
 Este projeto está licenciado sob a licença MIT.
 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/michelleGomes85/react-calculator/blob/main/LICENSE) 
 ---
 
 Desenvolvido por [MichelleGomes] 🚀
 
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/michellegomes85)
