@@ -1,5 +1,7 @@
 # 📟 Calculadora React
 
+[![Aplicação](https://img.shields.io/badge/Aplicação-%23007bff.svg)](https://michellegomes85.github.io/react-calculator/)
+
 Este é um projeto de uma calculadora básica desenvolvida com React. A calculadora permite realizar operações matemáticas fundamentais, como adição, subtração, multiplicação e divisão, além de operações adicionais como módulo, porcentagem, raiz quadrada, exponenciação e utilização do valor de PI.
 
 <div align="center">
