@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const ButtonContainer = styled.button`
   flex: 1;
-  aspect-ratio: 1 / 1; /* quadrado */
-  min-width: 60px;     /* evita que fiquem pequenos demais */
+  aspect-ratio: ${(props) =>
+    props.className === 'button-equals' ? '1 / 2.1' : '1 / 1'};
+
+  min-width: 60px;
   max-width: 100px;
 
   background-color: ${(props) =>
@@ -34,7 +36,8 @@ export const ButtonContainer = styled.button`
     transform: scale(0.95);
   }
 
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
+    height: auto;                  
     font-size: 18px;
   }
 `;
