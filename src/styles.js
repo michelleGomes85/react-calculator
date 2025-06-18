@@ -15,10 +15,10 @@ export const ContainerInput = styled.div`
 `
 
 export const ContainerButtons = styled.div`
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+`;
 
 export const Content = styled.div`
 
@@ -31,14 +31,17 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 20px 10px;
+    padding: 20px 14px;
 `
 
 export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-`
+  @media (max-width: 600px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+`;
